@@ -1,0 +1,33 @@
+html,
+body {
+  height: 70vh;
+  margin: 0;
+  background-image: url(./order-summary-component-main/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  background-position: top;
+}
+
+.plan {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: 14px;
+}
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+}
+.card {
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+}
